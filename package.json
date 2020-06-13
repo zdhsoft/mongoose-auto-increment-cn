@@ -1,48 +1,24 @@
 {
-  "_from": "mongoose-auto-increment-fix@^5.0.2",
-  "_id": "mongoose-auto-increment-fix@5.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-HQRcJl8cNqGFwMQtFD3oMrHI0HYGarbv5YQb3q5GQwYbbs1+AFkArerd3Hkb7u1ozoqveVvrt1NV/jFcHEt/gw==",
-  "_location": "/mongoose-auto-increment-fix",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "mongoose-auto-increment-fix@^5.0.2",
-    "name": "mongoose-auto-increment-fix",
-    "escapedName": "mongoose-auto-increment-fix",
-    "rawSpec": "^5.0.2",
-    "saveSpec": null,
-    "fetchSpec": "^5.0.2"
+  "name": "mongoose-auto-increment-cn",
+  "version": "0.1.2",
+  "description": "基于mongoose的自增id插件, This plugin allows you to auto-increment any field on any mongoose schema that you wish.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/mongoose-auto-increment-fix/-/mongoose-auto-increment-fix-5.0.2.tgz",
-  "_shasum": "8061b89cee5fa1c20dd7e7e1cddc9c31bc36b5eb",
-  "_spec": "mongoose-auto-increment-fix@^5.0.2",
-  "_where": "D:\\zdhsoft\\rhlgame\\pksvr\\game-server",
-  "author": {
-    "name": "Yue Lv",
-    "email": "lvyue@mnzld.net",
-    "url": "http://mnzld.net"
-  },
-  "bugs": {
-    "url": "https://github.com/lvyue/mongoose-auto-increment-fix/issues"
+  "scripts": {
+    "test": "mocha test/test.js"
   },
   "bundleDependencies": false,
-  "dependencies": {
-    "extend": "^3.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdhsoft/mongoose-auto-increment-cn.git"
   },
-  "deprecated": false,
-  "description": "This plugin allows you to auto-increment any field on any mongoose schema that you wish.",
-  "devDependencies": {
-    "async": "*",
-    "chai": "*",
-    "mocha": "*",
-    "mongoose": "^5.6.10"
+  "author": "zdhsoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdhsoft/mongoose-auto-increment-cn/issues"
   },
-  "homepage": "https://github.com/lvyue/mongoose-auto-increment-fix#readme",
   "keywords": [
     "mongoose",
     "plugin",
@@ -58,17 +34,17 @@
     "pureautoinc",
     "mongoose-pureautoinc"
   ],
-  "license": "MIT",
-  "name": "mongoose-auto-increment-cn",
+  "dependencies": {
+    "extend": "^3.0.2"
+  },
   "peerDependencies": {
-    "mongoose": "^5.6.10"
+    "mongoose": "^5.9.18"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/zdhsoft/mongoose-auto-increment-cn.git"
+  "devDependencies": {
+    "async": "*",
+    "chai": "*",
+    "mocha": "*",
+    "mongoose": "^5.9.18"
   },
-  "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
-  },
-  "version": "5.0.2"
+  "homepage": "https://github.com/zdhsoft/mongoose-auto-increment-cn#readme"
 }
